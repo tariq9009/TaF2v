@@ -12,7 +12,12 @@ Check availability of email address, username, phone number, and passwords leake
 Usage of TaF2v for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program 
 
 
-![tweet](https://www.up-00.com/i/00190/ywkwp5b5r1w2.jpg)
+![tweet](https://www.up4.cc/2020-09/159916175096711.jpeg)
+
+![tweet](https://www.up4.cc/2020-09/159916175103692.png)
+![tweet](https://www.up4.cc/2020-09/159916175117873.jpeg)
+![tweet](https://www.up4.cc/2020-09/159916175120894.png)
+![tweet](https://www.up4.cc/2020-09/15991617513245.png)
 
 ### TaF2v 100% accuracy: Query method works -> very useful in social engineering : 
 
@@ -20,12 +25,13 @@ Usage of TaF2v for attacking targets without prior mutual consent is illegal. It
 ```bash
 $ git clone https://github.com/0xfff0800/TaF2v.git
 $ cd TaF2v
-$ python3 TaF2v.py -a username -n phone number -k The country name is an abbreviation like Saudi Arabia > SA -e email
+$ python3 TaF2v.py -h
 ```
 
 # Usage
 ```bash
 $ python3 TaF2v.py -a username -n phone number -k The country name is an abbreviation like Saudi Arabia > SA -e email
+
 usage: TaF2v.py [-h] [-a ACCOUNT] [-n USER] [-k KOD] [-e EMAIL] [-f FILE]
                 [-d DOMAIN] [-t] [-oP] [-mD] [-p]
 
@@ -48,8 +54,6 @@ optional arguments:
   -mD, --makeDict       Make a Dictionary with some username masks, only works
                         with -d or with -oP option
   -p, --pgp             Obtain pgp key if exists
-
-Process finished with exit code 1
 
 ```
 
