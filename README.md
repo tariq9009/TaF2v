@@ -1,5 +1,5 @@
-# TaFsNap
-TaFsNap tool allows you to check the owner of the number, is it the link of his phone number in snapchat or not
+# TaF2v
+Check availability of email address, username, phone number, and passwords leaked from email on online platforms with 100% accuracy
 
 
 [![Version](https://img.shields.io/badge/Brutesploit-1.1.0-brightgreen.svg?maxAge=259200)]()
@@ -9,20 +9,18 @@ TaFsNap tool allows you to check the owner of the number, is it the link of his 
 
 ## Legal disclaimer:
 
-Usage of TaFsNap for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program 
+Usage of TaF2v for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program 
 
 
 ![tweet](https://www.up-00.com/i/00190/ywkwp5b5r1w2.jpg)
 
-### TaFsNap tool allows you to check the owner of the number, is it the link of his phone number in snapchat or not -> very useful in social engineering : 
+### TaF2v 100% accuracy: Query method works -> very useful in social engineering : 
 
-
-Number_snap option -> type the normal number
-
-
-
-The option of the name of the country to which the number belongs -> the name of the country, for example the number belongs to Saudi Arabia, you write SA 
-
+# Installation
+```bash
+$ git clone https://github.com/0xfff0800/TaF2v.git
+$ cd TaF2v
+$ python3 TaF2v.py -a username -n phone number -k The country name is an abbreviation like Saudi Arabia > SA -e email
 
 ### Donate
 - If this project very help you to penetration testing  and u want support me , you can give me a cup of coffee :)
