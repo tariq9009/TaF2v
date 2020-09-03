@@ -24,7 +24,7 @@ Usage of TaF2v for attacking targets without prior mutual consent is illegal. It
 # Installation
 ```bash
 $ git clone https://github.com/0xfff0800/TaF2v.git
-$ cd TaF2v
+$ cd TaF2v-master
 $ python3 TaF2v.py -h
 ```
 
