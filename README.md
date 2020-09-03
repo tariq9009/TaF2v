@@ -21,6 +21,38 @@ Usage of TaF2v for attacking targets without prior mutual consent is illegal. It
 $ git clone https://github.com/0xfff0800/TaF2v.git
 $ cd TaF2v
 $ python3 TaF2v.py -a username -n phone number -k The country name is an abbreviation like Saudi Arabia > SA -e email
+```
+
+# Usage
+```bash
+$ python3 TaF2v.py -a username -n phone number -k The country name is an abbreviation like Saudi Arabia > SA -e email
+usage: TaF2v.py [-h] [-a ACCOUNT] [-n USER] [-k KOD] [-e EMAIL] [-f FILE]
+                [-d DOMAIN] [-t] [-oP] [-mD] [-p]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -a ACCOUNT, --account ACCOUNT
+                        user_account
+  -n USER, --number USER
+                        number_snap
+  -k KOD, --kod KOD     The name of the country to which the number belongs
+  -e EMAIL, --email EMAIL
+                        Email address to search.
+  -f FILE, --file FILE  File with email accounts to search leaks.
+  -d DOMAIN, --domain DOMAIN
+                        Domain to search email leaks
+  -t, --tor             Use Tor to search leaks in onion sites, need also set
+                        the domain or file.
+  -oP, --onlyPasswords  Return only the ouput in format ->
+                        user@domain:password.
+  -mD, --makeDict       Make a Dictionary with some username masks, only works
+                        with -d or with -oP option
+  -p, --pgp             Obtain pgp key if exists
+
+Process finished with exit code 1
+
+```
+
 
 ### Donate
 - If this project very help you to penetration testing  and u want support me , you can give me a cup of coffee :)
